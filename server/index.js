@@ -8,7 +8,7 @@ var morgan = require("morgan");
 //docker build -t react-app
 
 mongoose
-  .connect("mongodb://localhost:27017/addisSoftwareTest", {
+  .connect("mongodb://mongo:27017/addisSoftwareTest", {
     useUnifiedTopology: true,
     useNewUrlParser: true,
   })
